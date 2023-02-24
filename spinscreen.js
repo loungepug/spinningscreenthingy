@@ -4,4 +4,4 @@ function rotate() {
     document.querySelector("body").style.transform = "rotate(" + rotatenum + "deg)"
 }
 
-setInterval(rotate, 100);
+setInterval(rotate(), 100);
